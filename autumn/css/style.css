@@ -1,0 +1,63 @@
+body{
+  background: url(../autumn.jpg);
+  font-family: Signika Negative, Asap, sans-serif;
+  color:white;
+  overflow:hidden;
+  background-size: cover;
+}
+
+
+.tempDet,.loc{
+  color: white;
+  font-size: 75px;
+  margin-top: 300px;
+  animation-delay: .5s;
+  text-align: center;
+  font-family: 'Bangers', cursive;
+
+  margin-left: 55px;
+}
+
+.loc{
+  font-size: 70px;
+  margin-top: 0px;
+  font-family: 'Bangers', cursive;
+  margin-left: 45px;
+  animation-delay: 1s;
+
+
+
+}
+
+.btnT{
+  font-family: 'Pacifico', cursive;
+  font-size: 20px;
+  position: absolute;
+  right: 2%;
+  top: 3%;
+  text-align: center;
+  /*margin-right: 70px;*/
+  background: transparent;
+  color: white;
+  border-color: white;
+  border: 2px solid;
+  width: 120px;
+  height: 40px;
+  border-radius: 50px;
+}
+
+.dot{
+  width:35px;
+  height:35px;
+  position:absolute;
+  background: url(http://www.clipartqueen.com/image-files/red-lobed-fall-clipart-leaf.png);
+  background-size: 100% 100%;
+}
+html, body, #container {width:100%; height:100%; }
+#logo{ left:50%; top:50%; position:absolute; border-radius:10px; }
+
+
+#links{position:absolute;bottom:0px;left:0px;width:100%;height:50px;font-size:13px;font-family:tahoma;color:#fff;}
+#links a{text-decoration:none;font-size:2.3em;color:#fff;}
+#twitter{position:absolute;bottom:15px;right:20px;}
+#pens{position:absolute;bottom:15px;left:20px;}

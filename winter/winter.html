@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+	<head>
+		<title>Winter</title>
+		<link href="css/base.css" rel="stylesheet" media="screen" /> 
+		<link href="css/snowflakes.css" rel="stylesheet" media="screen" /> 
+		<link rel="stylesheet" type="text/css" href="css/animate.css">
+		<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Bangers|Alfa+Slab+One|Archivo+Black|Fjalla+One|Pacifico|Roboto" rel="stylesheet">
+	</head>
+	<script src="js/ready.min.js" type="text/javascript"></script>
+	<script src="js/snowflakes.js" type="text/javascript"></script>	
+	<script type="text/javascript">
+		var snowflakes;
+		domReady(function() {
+			snowflakes = new Snowflakes('container','snowflakesContainer'); 	
+			snowflakes.create(180);
+		});
+	</script>
+	<body id="index">
+		<div id="container">
+			
+<button class="btnT">Time</button>
+		
+		</div>
+		<div id="snowflakesContainer"></div>
+
+		<div class="tempDet animated zoomIn">
+        	2&#8451 <br>
+    	</div>
+    	<div class="loc animated zoomIn">
+    		AHMEDABAD
+    	</div>
+	</body>
+</html>
